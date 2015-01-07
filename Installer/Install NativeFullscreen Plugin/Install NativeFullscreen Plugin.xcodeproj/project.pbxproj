@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC9E3771A5D8BFC005D3229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3761A5D8BFC005D3229 /* AppDelegate.m */; };
+		DDC9E3791A5D8BFC005D3229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3781A5D8BFC005D3229 /* main.m */; };
+		DDC9E37B1A5D8BFC005D3229 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC9E37A1A5D8BFC005D3229 /* Images.xcassets */; };
+		DDC9E37E1A5D8BFC005D3229 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC9E37C1A5D8BFC005D3229 /* MainMenu.xib */; };
+		DDC9E39C1A5D8C3D005D3229 /* NativeFullscreen.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDC9E3981A5D8C18005D3229 /* NativeFullscreen.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDC9E3A71A5D8CD7005D3229 /* AdobeTheme.protheme in Resources */ = {isa = PBXBuildFile; fileRef = DDC9E39E1A5D8CD7005D3229 /* AdobeTheme.protheme */; };
+		DDC9E3A81A5D8CD7005D3229 /* GRAdobeThemeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3A01A5D8CD7005D3229 /* GRAdobeThemeFrame.m */; };
+		DDC9E3A91A5D8CD7005D3229 /* GRProTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3A21A5D8CD7005D3229 /* GRProTheme.m */; };
+		DDC9E3AA1A5D8CD7005D3229 /* GRProThemeReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3A41A5D8CD7005D3229 /* GRProThemeReflection.m */; };
+		DDC9E3AB1A5D8CD7005D3229 /* GRProTitlebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3A61A5D8CD7005D3229 /* GRProTitlebarView.m */; };
+		DDC9E3AE1A5D8CF1005D3229 /* GRProWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3AD1A5D8CF1005D3229 /* GRProWindow.m */; };
+		DDC9E3B11A5D8DEF005D3229 /* GRAdobePluginInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9E3B01A5D8DEF005D3229 /* GRAdobePluginInstaller.m */; };
+		DDC9E3B71A5D9367005D3229 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC9E3B61A5D9367005D3229 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC9E3971A5D8C18005D3229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC9E3931A5D8C17005D3229 /* NativeFullscreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DDD9C2AE1A5CE8A900FD4DDE;
+			remoteInfo = NativeFullscreen;
+		};
+		DDC9E3991A5D8C29005D3229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC9E3931A5D8C17005D3229 /* NativeFullscreen.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD9C2AD1A5CE8A900FD4DDE;
+			remoteInfo = NativeFullscreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDC9E39B1A5D8C2E005D3229 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DDC9E39C1A5D8C3D005D3229 /* NativeFullscreen.plugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDC9E3701A5D8BFC005D3229 /* Install NativeFullscreen Plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Install NativeFullscreen Plugin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC9E3741A5D8BFC005D3229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC9E3751A5D8BFC005D3229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC9E3761A5D8BFC005D3229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC9E3781A5D8BFC005D3229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC9E37A1A5D8BFC005D3229 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDC9E37D1A5D8BFC005D3229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDC9E3931A5D8C17005D3229 /* NativeFullscreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NativeFullscreen.xcodeproj; path = ../../NativeFullscreen.xcodeproj; sourceTree = "<group>"; };
+		DDC9E39E1A5D8CD7005D3229 /* AdobeTheme.protheme */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = AdobeTheme.protheme; path = "../../../NativeFullscreen/Fullscreen Enabler/AdobeTheme.protheme"; sourceTree = "<group>"; };
+		DDC9E39F1A5D8CD7005D3229 /* GRAdobeThemeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRAdobeThemeFrame.h; path = "../../../NativeFullscreen/Fullscreen Enabler/GRAdobeThemeFrame.h"; sourceTree = "<group>"; };
+		DDC9E3A01A5D8CD7005D3229 /* GRAdobeThemeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRAdobeThemeFrame.m; path = "../../../NativeFullscreen/Fullscreen Enabler/GRAdobeThemeFrame.m"; sourceTree = "<group>"; };
+		DDC9E3A11A5D8CD7005D3229 /* GRProTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRProTheme.h; path = "../../../NativeFullscreen/Fullscreen Enabler/GRProTheme.h"; sourceTree = "<group>"; };
+		DDC9E3A21A5D8CD7005D3229 /* GRProTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRProTheme.m; path = "../../../NativeFullscreen/Fullscreen Enabler/GRProTheme.m"; sourceTree = "<group>"; };
+		DDC9E3A31A5D8CD7005D3229 /* GRProThemeReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRProThemeReflection.h; path = "../../../NativeFullscreen/Fullscreen Enabler/GRProThemeReflection.h"; sourceTree = "<group>"; };
+		DDC9E3A41A5D8CD7005D3229 /* GRProThemeReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRProThemeReflection.m; path = "../../../NativeFullscreen/Fullscreen Enabler/GRProThemeReflection.m"; sourceTree = "<group>"; };
+		DDC9E3A51A5D8CD7005D3229 /* GRProTitlebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRProTitlebarView.h; path = "../../../NativeFullscreen/Fullscreen Enabler/GRProTitlebarView.h"; sourceTree = "<group>"; };
+		DDC9E3A61A5D8CD7005D3229 /* GRProTitlebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRProTitlebarView.m; path = "../../../NativeFullscreen/Fullscreen Enabler/GRProTitlebarView.m"; sourceTree = "<group>"; };
+		DDC9E3AC1A5D8CF1005D3229 /* GRProWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRProWindow.h; path = Window/GRProWindow.h; sourceTree = "<group>"; };
+		DDC9E3AD1A5D8CF1005D3229 /* GRProWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRProWindow.m; path = Window/GRProWindow.m; sourceTree = "<group>"; };
+		DDC9E3AF1A5D8DEF005D3229 /* GRAdobePluginInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRAdobePluginInstaller.h; path = Controller/GRAdobePluginInstaller.h; sourceTree = "<group>"; };
+		DDC9E3B01A5D8DEF005D3229 /* GRAdobePluginInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRAdobePluginInstaller.m; path = Controller/GRAdobePluginInstaller.m; sourceTree = "<group>"; };
+		DDC9E3B61A5D9367005D3229 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC9E36D1A5D8BFC005D3229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC9E3B71A5D9367005D3229 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC9E3671A5D8BFC005D3229 = {
+			isa = PBXGroup;
+			children = (
+				DDC9E3B61A5D9367005D3229 /* Security.framework */,
+				DDC9E3931A5D8C17005D3229 /* NativeFullscreen.xcodeproj */,
+				DDC9E3721A5D8BFC005D3229 /* Install NativeFullscreen Plugin */,
+				DDC9E3711A5D8BFC005D3229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC9E3711A5D8BFC005D3229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9E3701A5D8BFC005D3229 /* Install NativeFullscreen Plugin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC9E3721A5D8BFC005D3229 /* Install NativeFullscreen Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9E3B21A5D8DF2005D3229 /* Controller */,
+				DDC9E39D1A5D8CC0005D3229 /* GREmbeddedProKit */,
+				DDC9E3751A5D8BFC005D3229 /* AppDelegate.h */,
+				DDC9E3761A5D8BFC005D3229 /* AppDelegate.m */,
+				DDC9E37A1A5D8BFC005D3229 /* Images.xcassets */,
+				DDC9E37C1A5D8BFC005D3229 /* MainMenu.xib */,
+				DDC9E3731A5D8BFC005D3229 /* Supporting Files */,
+			);
+			path = "Install NativeFullscreen Plugin";
+			sourceTree = "<group>";
+		};
+		DDC9E3731A5D8BFC005D3229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9E3741A5D8BFC005D3229 /* Info.plist */,
+				DDC9E3781A5D8BFC005D3229 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC9E3941A5D8C17005D3229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9E3981A5D8C18005D3229 /* NativeFullscreen.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC9E39D1A5D8CC0005D3229 /* GREmbeddedProKit */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9E39E1A5D8CD7005D3229 /* AdobeTheme.protheme */,
+				DDC9E39F1A5D8CD7005D3229 /* GRAdobeThemeFrame.h */,
+				DDC9E3A01A5D8CD7005D3229 /* GRAdobeThemeFrame.m */,
+				DDC9E3A11A5D8CD7005D3229 /* GRProTheme.h */,
+				DDC9E3A21A5D8CD7005D3229 /* GRProTheme.m */,
+				DDC9E3A31A5D8CD7005D3229 /* GRProThemeReflection.h */,
+				DDC9E3A41A5D8CD7005D3229 /* GRProThemeReflection.m */,
+				DDC9E3A51A5D8CD7005D3229 /* GRProTitlebarView.h */,
+				DDC9E3A61A5D8CD7005D3229 /* GRProTitlebarView.m */,
+				DDC9E3AC1A5D8CF1005D3229 /* GRProWindow.h */,
+				DDC9E3AD1A5D8CF1005D3229 /* GRProWindow.m */,
+			);
+			name = GREmbeddedProKit;
+			sourceTree = "<group>";
+		};
+		DDC9E3B21A5D8DF2005D3229 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9E3AF1A5D8DEF005D3229 /* GRAdobePluginInstaller.h */,
+				DDC9E3B01A5D8DEF005D3229 /* GRAdobePluginInstaller.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC9E36F1A5D8BFC005D3229 /* Install NativeFullscreen Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC9E38D1A5D8BFC005D3229 /* Build configuration list for PBXNativeTarget "Install NativeFullscreen Plugin" */;
+			buildPhases = (
+				DDC9E36C1A5D8BFC005D3229 /* Sources */,
+				DDC9E36D1A5D8BFC005D3229 /* Frameworks */,
+				DDC9E36E1A5D8BFC005D3229 /* Resources */,
+				DDC9E39B1A5D8C2E005D3229 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC9E39A1A5D8C29005D3229 /* PBXTargetDependency */,
+			);
+			name = "Install NativeFullscreen Plugin";
+			productName = "Install NativeFullscreen Plugin";
+			productReference = DDC9E3701A5D8BFC005D3229 /* Install NativeFullscreen Plugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC9E3681A5D8BFC005D3229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDC9E36F1A5D8BFC005D3229 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8C7439RJLG;
+					};
+				};
+			};
+			buildConfigurationList = DDC9E36B1A5D8BFC005D3229 /* Build configuration list for PBXProject "Install NativeFullscreen Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC9E3671A5D8BFC005D3229;
+			productRefGroup = DDC9E3711A5D8BFC005D3229 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DDC9E3941A5D8C17005D3229 /* Products */;
+					ProjectRef = DDC9E3931A5D8C17005D3229 /* NativeFullscreen.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DDC9E36F1A5D8BFC005D3229 /* Install NativeFullscreen Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DDC9E3981A5D8C18005D3229 /* NativeFullscreen.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NativeFullscreen.plugin;
+			remoteRef = DDC9E3971A5D8C18005D3229 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC9E36E1A5D8BFC005D3229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC9E37B1A5D8BFC005D3229 /* Images.xcassets in Resources */,
+				DDC9E3A71A5D8CD7005D3229 /* AdobeTheme.protheme in Resources */,
+				DDC9E37E1A5D8BFC005D3229 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC9E36C1A5D8BFC005D3229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC9E3AA1A5D8CD7005D3229 /* GRProThemeReflection.m in Sources */,
+				DDC9E3A91A5D8CD7005D3229 /* GRProTheme.m in Sources */,
+				DDC9E3AB1A5D8CD7005D3229 /* GRProTitlebarView.m in Sources */,
+				DDC9E3791A5D8BFC005D3229 /* main.m in Sources */,
+				DDC9E3B11A5D8DEF005D3229 /* GRAdobePluginInstaller.m in Sources */,
+				DDC9E3A81A5D8CD7005D3229 /* GRAdobeThemeFrame.m in Sources */,
+				DDC9E3771A5D8BFC005D3229 /* AppDelegate.m in Sources */,
+				DDC9E3AE1A5D8CF1005D3229 /* GRProWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC9E39A1A5D8C29005D3229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NativeFullscreen;
+			targetProxy = DDC9E3991A5D8C29005D3229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC9E37C1A5D8BFC005D3229 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC9E37D1A5D8BFC005D3229 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC9E38B1A5D8BFC005D3229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDC9E38C1A5D8BFC005D3229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDC9E38E1A5D8BFC005D3229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Install NativeFullscreen Plugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDC9E38F1A5D8BFC005D3229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Install NativeFullscreen Plugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC9E36B1A5D8BFC005D3229 /* Build configuration list for PBXProject "Install NativeFullscreen Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC9E38B1A5D8BFC005D3229 /* Debug */,
+				DDC9E38C1A5D8BFC005D3229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC9E38D1A5D8BFC005D3229 /* Build configuration list for PBXNativeTarget "Install NativeFullscreen Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC9E38E1A5D8BFC005D3229 /* Debug */,
+				DDC9E38F1A5D8BFC005D3229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC9E3681A5D8BFC005D3229 /* Project object */;
+}

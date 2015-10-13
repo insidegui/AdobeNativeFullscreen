@@ -17,6 +17,7 @@
     NSThemeFrame *_associatedThemeFrame;
     NSTrackingArea *_leftButtonGroupTrackingArea;
     NSDictionary *_leftButtonGroupUserInfo;
+    BOOL _drawsSeparator;
 }
 
 - (instancetype)initWithFrame:(NSRect)frameRect
@@ -29,9 +30,19 @@
     return self;
 }
 
+- (void)setTitlebarMaterialDrawsSeparator:(BOOL)drawsSeparator
+{
+    _drawsSeparator = drawsSeparator;
+}
+
 - (void)_setAssociatedThemeFrame:(NSThemeFrame *)themeFrame
 {
     _associatedThemeFrame = themeFrame;
+}
+
+- (void)setAssociatedThemeFrame:(NSThemeFrame *)themeFrame
+{
+    [self _setAssociatedThemeFrame:themeFrame];
 }
 
 - (void)drawRect:(NSRect)dirtyRect {

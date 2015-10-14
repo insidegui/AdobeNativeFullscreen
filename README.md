@@ -1,10 +1,10 @@
 # NativeFullscreen Plugin
 
-A plugin to make Adobe Premiere, Adobe After Effects, Adobe SpeedGrade and Adobe Media Encoder support the native fullscreen mode on OS X. It also makes the windows look better with a dark titlebar.
+A plugin to make Adobe Premiere, Adobe After Effects, Adobe SpeedGrade and Adobe Media Encoder support the native fullscreen mode on OS X. It also makes the windows look better with a dark titlebar and enables dark mode on El Capitan.
 
 **Support:**
 
-*Only tested in OS X 10.10.1*
+*Currently tested on OS X 10.11*
 
 **Adobe apps supported:**
 

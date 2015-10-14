@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2DF59A1BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2DF5991BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.m */; };
 		DDC9E3BA1A5D99DC005D3229 /* FakePlugin.r in Rez */ = {isa = PBXBuildFile; fileRef = DDC9E3B81A5D99CA005D3229 /* FakePlugin.r */; };
 		DDD9C2BC1A5CE8FA00FD4DDE /* GRAdobeFullscreenEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD9C2BB1A5CE8FA00FD4DDE /* GRAdobeFullscreenEnabler.m */; };
 		DDD9C2BF1A5CE9D500FD4DDE /* FakePlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDD9C2BD1A5CE9D500FD4DDE /* FakePlugin.cpp */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD2DF5981BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRAdobeInterfaceStyleManager.h; path = "Interface Style/GRAdobeInterfaceStyleManager.h"; sourceTree = "<group>"; };
+		DD2DF5991BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRAdobeInterfaceStyleManager.m; path = "Interface Style/GRAdobeInterfaceStyleManager.m"; sourceTree = "<group>"; };
 		DDC9E3B81A5D99CA005D3229 /* FakePlugin.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = FakePlugin.r; sourceTree = "<group>"; };
 		DDD9C2AE1A5CE8A900FD4DDE /* NativeFullscreen.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeFullscreen.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD9C2B21A5CE8A900FD4DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD2DF5971BCDC0D000927997 /* Interface Style */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DF5981BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.h */,
+				DD2DF5991BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.m */,
+			);
+			name = "Interface Style";
+			sourceTree = "<group>";
+		};
 		DDD9C2A51A5CE8A900FD4DDE = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,7 @@
 		DDD9C2B01A5CE8A900FD4DDE /* NativeFullscreen */ = {
 			isa = PBXGroup;
 			children = (
+				DD2DF5971BCDC0D000927997 /* Interface Style */,
 				DDD9C2B91A5CE8B600FD4DDE /* Fullscreen Enabler */,
 				DDD9C2B81A5CE8AE00FD4DDE /* Fake Plugin */,
 				DDD9C2B11A5CE8A900FD4DDE /* Supporting Files */,
@@ -207,6 +220,7 @@
 				DDD9C2CA1A5CEF3B00FD4DDE /* GRProThemeReflection.m in Sources */,
 				DDD9C2C91A5CEF3B00FD4DDE /* GRProTheme.m in Sources */,
 				DDD9C2CF1A5CF03F00FD4DDE /* GRAdobeThemeFrame.m in Sources */,
+				DD2DF59A1BCDC0EC00927997 /* GRAdobeInterfaceStyleManager.m in Sources */,
 				DDD9C2BC1A5CE8FA00FD4DDE /* GRAdobeFullscreenEnabler.m in Sources */,
 				DDD9C2BF1A5CE9D500FD4DDE /* FakePlugin.cpp in Sources */,
 				DDD9C2C21A5CEEDD00FD4DDE /* GRProTitlebarView.m in Sources */,
